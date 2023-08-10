@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/clima.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Go Film</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="../img/menu.png" class="menu-icono" alt="Menu">
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li>
+                        <a href="../index.html">Inicio</a>
+                        <a href="./quienes-somos.html">Quienes Somos</a>
+                        <a href="./clima.html">Clima</a>
+                        <a href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="boton-1">Ingresar</a>
+        </div>
+
+        <div class="header-content container">
+
+            <div class="header-1">
+
+                <a href="#" class="boton-2">Ver Ahora</a>
+            </div>
+            <div class="header-2">
+                <h1>Las mejores <br> Peliculas </h1>
+                <img src="../img/play2.png" alt=".">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="weather-content">
+            <h1>Buscador del clima</h1>
+            <div class="result">
+                <p>Agregue cuidad y pais</p>
+            <form action="" method="POST" class="get-weather">
+                <select name="city" id="city">
+                    <option disabled selected value="">Seleccione la ciudad</option>
+                    <option value="Martinez">Martinez</option>
+                    <option value="Vicente Lopez">Vicente Lopez</option>
+                    <option value="Buenos Aires">Buenos Aires</option>
+                    <option value="Villa Gesell">Villa Gesell</option>
+                    <option value="Bariloche">Bariloche</option>
+                    <option value="Neuquen">Neuquen</option>
+                    <option value="Bogotá">Bogotá</option>
+                    <option value="Medellín">Medellín</option>
+                    <option value="Madrid">Madrid</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Florida">Florida</option>
+                    <option value="Lima">Lima</option>
+                    
+                    
+                </select>
+                <select name="country" id="country">
+                    <option disabled selected value="">Seleccione el país</option>
+                    <option value="AR">Argentina</option>
+                    <option value="PE">Peru</option>
+                    <option value="CO">Colombia</option>
+                    <option value="ES">España</option>
+                    <option value="US">Estados Unidos</option>
+                </select>
+                <input type="submit" name="" id="" value="Get Weather">
+            </form>
+        </section>
+        
+    </main>
+
+
+
+
+
+    <footer class="footer container">
+
+        <h3>GoFilm</h3>
+
+        <ul>
+            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+            <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+            <li><a href="https://github.com/LeoHallakAlvarez" target="_blank"><i class="bi bi-github"></i></a></li>
+        </ul>
+
+    </footer>
+
+
+
+
+
+
+
+</body>
+</html>
